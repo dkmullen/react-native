@@ -31,6 +31,10 @@ const HomeScreen = ({ navigation }) => {
         onPress={() => navigation.navigate('Square')}
         title='Go to Square Demo'
       />
+      <Button
+        onPress={() => navigation.navigate('Text')}
+        title='Go to Text Demo'
+      />
       {/* TouchableOpacity is used to make pics, icons and other objects reactive */}
       {/* <TouchableOpacity onPress={() => navigation.navigate('List')}>
         <Text>Go to List Demo</Text>
